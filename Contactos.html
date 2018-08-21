@@ -1,0 +1,139 @@
+<title>Contactos</title>
+			<link rel="stylesheet" type="text/css" href="estilos.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet/less" href="css/variables.less">
+<link rel="stylesheet/less" href="css/v2.less">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+	</head>
+<body>
+      
+        <div style="background-color: #5891cd; height: 10.3%;"">
+          <img src="img/facebook_logo.png" alt="Facebook_Logo" width="19px" height="30px" ;" id="face">
+          <img src="img/twiter_logo.png" alt="Twiter_Logo" width="32px" height="26px" ;" id="twiter">
+        </div>
+
+        <div style="width:240px; height:130px; margin:0 auto; padding-top: 0.4%" >
+
+          <a href="index.html"   >
+            <img src="img/logo.png" alt="Cemeor" style="width:230px; height:120px;"  >
+          </a>
+          
+        </div>
+
+
+             <nav class="navbar navbar-default" style="width: 100%; font-family:'Kelson-Sans';">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Contactos</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li ><a href="index.html">Pagina Inicial<span class="sr-only"></span></a></li>
+
+        <li ><a href="Sobre.html">Sobre Nós<span class="sr-only"></span></a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Serviços<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="Dentisteria.html">Dentisteria</a></li>
+            <li><a href="Cirurgia-Oral.html">Cirurgia Oral</a></li>
+            <li><a href="Odontopediatria.html">Odontopediatria (Crianças)</a></li>
+            <li><a href="Protese-Fixa.html">Prótese Fixa</a></li>
+            <li><a href="Protese-removiel.html">Prótese Removível</a></li>
+            <li><a href="Radiovisiografia.html">Radiovisiografia</a></li>
+            <li><a href="Câmara-Intra-Oral.html">Câmara Intra-Oral</a></li>
+          </ul>
+        </li>
+
+          
+
+      </ul>
+
+     
+    </div>
+  </div>
+</nav>
+
+    <div>
+     <p style="font-family:'Kelson-Sans'; font-size: 15pt; padding-left: 10%; padding-top: 3%; color: #4674b8">Contactos</p>
+     <hr>
+     </div>
+    
+<div class="row">
+  <div class="col-md-6"><div style="font-family:'Kelson-Sans'; font-size: 15pt; padding-left: 10%; padding-top: 3%; color: #4674b8">
+        Envie a sua mensagem para esclarecer qualquer <strong>dúvida</strong> ou <strong>questão.</strong> Para isso basta preencher o formulário abaixo.<br><br>
+        </div>
+
+
+
+<?php session_start(); ?>
+<form style="width: 70%; padding-left: 10%; font-family: 'Kelson-Sans'" action="email.php" method="post">
+  <div class="form-group">
+    <label for="exampleInputName2">Nome</label>
+    <input type="text" name="nome" class="form-control" id="exampleInputName2"" placeholder="Nome">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputEmail2">Email</label>
+    <input type="email" name="email" class="form-control" id="email" placeholder="geral@cemeor.pt">
+  </div>
+  <textarea class="form-control" name="Texto" rows="3" style="padding-bottom: 1%;" placeholder="Texto"></textarea>
+  <div style="height: 2%;"></div>
+  <button type="submit" value="Send" class="btn btn-default"" style="font-family: 'Kelson-Sans';">Enviar</button>
+  <button type="reset" value="Reset" class="btn btn-default"" style="font-family: 'Kelson-Sans';">Limpar</button>
+</div>
+</form>
+  <div class="col-md-6" style="font-size: 15pt; font-family: 'Kelson-Sans'; padding-top: 1%; padding-left: 10%;"><strong style="color: #4674b8">Clínica:</strong><br><br>
+
+<strong style="color: #4674b8">Telefone:</strong> +351 253 274 668<br><br>
+<strong style="color: #4674b8">Morada:</strong>  Av Central Nº33 2 andar Sala 2<br><br>
+<strong style="color: #4674b8">Email:</strong> geral.cemeor@gmail.com<br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2985.76373540452!2d-8.4247476850067!3d41.55271257924938!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24feea15561263%3A0x1cdd3cd6f6c836c7!2sAv.+Central+33%2C+4710-228+Braga!5e0!3m2!1spt-PT!2spt!4v1499011491829" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe><br><br>
+
+
+</div>
+</div>
+
+    </div>
+     
+
+<div class="row" style="padding-top: 2%; padding-left: 7%; background-color: #d3d3d3">
+              <div class="col-md-4" style="font-family: 'Kelson-Sans'">
+             <img src="img/logo.png" alt="Cemeor" width="240px" height="130px"><br><br>
+           Cemeor é uma clinica dentária especializada na Dentisteria, Cirugia Oral, Odontopediatria, Prótese Fixa, Prótese Removível, Radiovisiografia e Câmara Intra-Oral.
+              </div>
+              <div class="col-md-4" style="font-family:'Kelson-Sans'; font-size: 1.4em; color: #4674b8; padding-top: 1%;padding-left: 7%;">Links:<br><br>
+              <a href="Sobre.html" title="Sobre Nós" style="font-size: 0.7em; color: #333333; text-decoration:none">Sobre Nós</a><br><br>
+
+                <a href="Dentisteria.html" title="Serviços" style="font-size: 0.7em; color: #333333; text-decoration:none">Serviços</a><br><br>
+
+                  <a href="Contactos.html" title="Contactos" style="font-size: 0.7em; color: #333333; text-decoration:none">Contactos</a><br>
+              </div>
+              <div class="col-md-4" style="font-family:'Kelson-Sans'; font-size:1.4em; color: #4674b8;">Siga-nos no Facebook<br><br>
+              <img src="img/facebook.png" alt="Facebook-Cemor" ><br><br></div>
+          </div>
+
+          <div style="background-color: #5891cd; height: 10.3%; font-family: 'Kelson-Sans'"">
+            <p style="color: white; padding-top: 2%; padding-left: 10%;">2017 Cemeor | Todos os Direitos Reservados.</p>
+        </div>
+
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+body {
+}
+
+#face {
+	margin-top: 1%;
+    margin-left: 4%;
+}
+
+#twiter {
+	margin-top: 1%;
+	margin-left: 3%;
+}
+
+
+@font-face {
+font-family: "Kelson-Sans";
+src: url("fonts/Kelson Sans Regular.otf");
+}
+
+
+
+
